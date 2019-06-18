@@ -12,9 +12,9 @@ class School
     @roster[grade] = []
     
     if @roster.include?(grade)
-      student.push
-    else
       @roster[grade] << student
+    else
+      
     end
   end
   
