@@ -12,7 +12,7 @@ class School
     @roster[grade] = []
     
     if @roster.has_key?(grade)
-      @roster.merge(student)
+      @roster << student
     else
       @roster[grade] << student
     end
