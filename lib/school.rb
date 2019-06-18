@@ -11,7 +11,7 @@ class School
     
     @roster[grade] = []
     
-    if @roster[grade].include?(grade)
+    if @roster.include?(grade)
       student.push
     else
       @roster[grade] << student
