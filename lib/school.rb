@@ -13,7 +13,7 @@ class School
     
     if @roster.include?(grade)
       @roster[grade] << student
-    else
+    
       
     end
   end
