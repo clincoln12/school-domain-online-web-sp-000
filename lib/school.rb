@@ -11,7 +11,7 @@ class School
     
     @roster[grade] = []
     
-    if @roster.include?(grade)
+    if @roster.has_key?(grade)
       @roster[grade] << student
     
       
