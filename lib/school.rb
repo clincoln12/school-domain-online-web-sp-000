@@ -11,7 +11,7 @@ class School
     
     
     if @roster.has_key?(grade)
-      [grade] << student
+      @roster[grade] << student
     else
       @roster[grade] = []
       @roster[grade] << student
